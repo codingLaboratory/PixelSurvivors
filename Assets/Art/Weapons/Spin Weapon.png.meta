@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 8aceef0e1d851ca488c0aa3facba8c46
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6886240067766444511
+    second: Spin Weapon_0
+  - first:
+      213: -7840589536656221103
+    second: Spin Weapon_1
+  - first:
+      213: 6217870435647891037
+    second: Spin Weapon_2
+  - first:
+      213: -4107719686440625040
+    second: Spin Weapon_3
+  - first:
+      213: -386960489501586610
+    second: Spin Weapon_4
+  - first:
+      213: -7405106218533320917
+    second: Spin Weapon_5
+  - first:
+      213: -2406436267209390759
+    second: Spin Weapon_6
+  - first:
+      213: -5240065131109998951
+    second: Spin Weapon_7
+  - first:
+      213: -6659566407041042903
+    second: Spin Weapon_8
+  - first:
+      213: -2654911243136961712
+    second: Spin Weapon_9
+  - first:
+      213: 318572604043964179
+    second: Spin Weapon_10
+  - first:
+      213: -4050384779349454764
+    second: Spin Weapon_11
+  - first:
+      213: 4241412188422334505
+    second: Spin Weapon_12
+  - first:
+      213: 2735058226465461449
+    second: Spin Weapon_13
+  - first:
+      213: 6225205047579943778
+    second: Spin Weapon_14
+  - first:
+      213: 3633096945403956384
+    second: Spin Weapon_15
+  - first:
+      213: -6630028860388238674
+    second: Spin Weapon_16
+  - first:
+      213: -5733866592647634994
+    second: Spin Weapon_17
+  - first:
+      213: -1187506897382240416
+    second: Spin Weapon_18
+  - first:
+      213: 5851270794336124034
+    second: Spin Weapon_19
+  - first:
+      213: 6859569364565503364
+    second: Spin Weapon_20
+  - first:
+      213: -120558723194132598
+    second: Spin Weapon_21
+  - first:
+      213: -8359885898555912523
+    second: Spin Weapon_22
+  - first:
+      213: -5195622350893195584
+    second: Spin Weapon_23
+  - first:
+      213: -4486289133322016980
+    second: Spin Weapon_24
+  - first:
+      213: 7512347299531119542
+    second: Spin Weapon_25
+  - first:
+      213: 787449001371087433
+    second: Spin Weapon_26
+  - first:
+      213: 2688977603259420837
+    second: Spin Weapon_27
+  - first:
+      213: -3913595134440676868
+    second: Spin Weapon_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spin Weapon_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 153
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1e7455bd6d09f50800000000000000
+      internalID: 6886240067766444511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 153
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c16fd8b51a03390800000000000000
+      internalID: -7840589536656221103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 153
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d562230b7305a4650800000000000000
+      internalID: 6217870435647891037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 153
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cd3d475b27ef6c0800000000000000
+      internalID: -4107719686440625040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 153
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b85292c7d31aaf0800000000000000
+      internalID: -386960489501586610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 114
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b270940d027cb3990800000000000000
+      internalID: -7405106218533320917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 76
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9550e5ef6fe9a9ed0800000000000000
+      internalID: -2406436267209390759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_7
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 76
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e174cb68c8747b0800000000000000
+      internalID: -5240065131109998951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_8
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 76
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926b13ef2a77493a0800000000000000
+      internalID: -6659566407041042903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_9
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 76
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05371aa6a4cd72bd0800000000000000
+      internalID: -2654911243136961712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_10
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 76
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f2633781ccb6400800000000000000
+      internalID: 318572604043964179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_11
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 76
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4501a37c0842ac7c0800000000000000
+      internalID: -4050384779349454764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_12
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 76
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928ece4d9e58cda30800000000000000
+      internalID: 4241412188422334505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 39
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4db7c47f0e4f520800000000000000
+      internalID: 2735058226465461449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 39
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263a8fa120f546650800000000000000
+      internalID: 6225205047579943778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_15
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 39
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac0c514c6a5b6230800000000000000
+      internalID: 3633096945403956384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_16
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 39
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa98fdf0e76df3a0800000000000000
+      internalID: -6630028860388238674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_17
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 39
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf12cb96b63d60b0800000000000000
+      internalID: -5733866592647634994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_18
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 39
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f843db4c0258fe0800000000000000
+      internalID: -1187506897382240416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_19
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 39
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28cb50d39c3e33150800000000000000
+      internalID: 5851270794336124034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d24175ef5123f50800000000000000
+      internalID: 6859569364565503364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_21
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a876071ea70b35ef0800000000000000
+      internalID: -120558723194132598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_22
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be07cd5118bbfb80800000000000000
+      internalID: -8359885898555912523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_23
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce5eebdff075e7b0800000000000000
+      internalID: -5195622350893195584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_24
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2765a87dcf7db1c0800000000000000
+      internalID: -4486289133322016980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_25
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbdae91118314860800000000000000
+      internalID: 7512347299531119542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_26
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942b575d1b49dea00800000000000000
+      internalID: 787449001371087433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_27
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0524322ea215520800000000000000
+      internalID: 2688977603259420837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spin Weapon_28
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf167f8d5fd10b9c0800000000000000
+      internalID: -3913595134440676868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1f2ba5f739a5d7942909a3e9bd45cdc5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spin Weapon_0: 6886240067766444511
+      Spin Weapon_1: -7840589536656221103
+      Spin Weapon_10: 318572604043964179
+      Spin Weapon_11: -4050384779349454764
+      Spin Weapon_12: 4241412188422334505
+      Spin Weapon_13: 2735058226465461449
+      Spin Weapon_14: 6225205047579943778
+      Spin Weapon_15: 3633096945403956384
+      Spin Weapon_16: -6630028860388238674
+      Spin Weapon_17: -5733866592647634994
+      Spin Weapon_18: -1187506897382240416
+      Spin Weapon_19: 5851270794336124034
+      Spin Weapon_2: 6217870435647891037
+      Spin Weapon_20: 6859569364565503364
+      Spin Weapon_21: -120558723194132598
+      Spin Weapon_22: -8359885898555912523
+      Spin Weapon_23: -5195622350893195584
+      Spin Weapon_24: -4486289133322016980
+      Spin Weapon_25: 7512347299531119542
+      Spin Weapon_26: 787449001371087433
+      Spin Weapon_27: 2688977603259420837
+      Spin Weapon_28: -3913595134440676868
+      Spin Weapon_3: -4107719686440625040
+      Spin Weapon_4: -386960489501586610
+      Spin Weapon_5: -7405106218533320917
+      Spin Weapon_6: -2406436267209390759
+      Spin Weapon_7: -5240065131109998951
+      Spin Weapon_8: -6659566407041042903
+      Spin Weapon_9: -2654911243136961712
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

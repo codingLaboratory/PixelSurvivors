@@ -21,5 +21,7 @@ public class WeaponStats {
     public float damage;
     public float range;
     public float speed;
+    public float amount;
+
     public string description;
 }
