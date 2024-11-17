@@ -11990,7 +11990,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 0}
   m_FillRect: {fileID: 1589690666}
   m_HandleRect: {fileID: 0}
@@ -50818,7 +50818,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 0}
   m_FillRect: {fileID: 1674169535}
   m_HandleRect: {fileID: 0}
@@ -51012,28 +51012,91 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponLevel: 0
   stats:
-  - cooldown: 6
-    duration: 3
-    damage: 1
-    range: 2
-    speed: 2
-    amount: 2
-    description: 
   - cooldown: 5
-    duration: 3
+    duration: 4
     damage: 2
-    range: 3
+    range: 1.5
+    speed: 3
+    amount: 1
+    description: +1 ball
+  - cooldown: 5
+    duration: 4
+    damage: 2
+    range: 2
+    speed: 2.6
+    amount: 2
+    description: +1 ball
+  - cooldown: 5
+    duration: 4
+    damage: 2
+    range: 2.2
+    speed: 2.2
+    amount: 3
+    description: +1 damage
+  - cooldown: 5
+    duration: 4
+    damage: 3
+    range: 2.4
+    speed: 2.2
+    amount: 3
+    description: +2 balls
+  - cooldown: 5
+    duration: 4
+    damage: 3
+    range: 2.6
     speed: 1.5
     amount: 5
-    description: 
+    description: +1 damage
   - cooldown: 5
-    duration: 3
-    damage: 3
+    duration: 4
+    damage: 4
+    range: 2.8
+    speed: 1.5
+    amount: 5
+    description: +1 ball
+  - cooldown: 5
+    duration: 4
+    damage: 4
+    range: 3
+    speed: 1.4
+    amount: 6
+    description: +1 ball
+  - cooldown: 5
+    duration: 4
+    damage: 4
+    range: 3.2
+    speed: 1.3
+    amount: 7
+    description: +1 ball
+  - cooldown: 5
+    duration: 4
+    damage: 4
+    range: 3.4
+    speed: 1.2
+    amount: 8
+    description: +1 damage
+  - cooldown: 5
+    duration: 4
+    damage: 5
+    range: 3.6
+    speed: 1.2
+    amount: 8
+    description: +1 ball
+  - cooldown: 5
+    duration: 4
+    damage: 5
+    range: 3.8
+    speed: 1.1
+    amount: 9
+    description: +1 ball
+  - cooldown: 5
+    duration: 4
+    damage: 5
     range: 4
     speed: 1
     amount: 10
-    description: 
-  weaponImage: {fileID: 0}
+    description: Final
+  weaponImage: {fileID: -2406436267209390759, guid: 8aceef0e1d851ca488c0aa3facba8c46, type: 3}
   prefab: {fileID: 4228278327014143286, guid: a8a30df1fd93170479d03f99783dbdd5, type: 3}
 --- !u!1 &2068090151
 GameObject:
@@ -51327,7 +51390,7 @@ MonoBehaviour:
   currentLevel: 1
   maxLevel: 30
   playerLevels: 0a000000140000001e000000
-  activeWeapon: {fileID: 290669093}
+  activeWeapon: {fileID: 2047537912}
   immunityDuration: 1
   immunityTimer: 0
 --- !u!70 &2129728293
