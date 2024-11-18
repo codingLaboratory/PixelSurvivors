@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private float moveSpeed;
     public Vector3 playerMoveDirection;
+    public Vector3 lastMoveDirection;
     public float playerMaxHealth;
     public float playerHealth;
 
@@ -33,6 +34,7 @@ public class PlayerController : MonoBehaviour
     }
 
     void Start(){
+        lastMoveDirection = new Vector3(0, -1);
         for (int i = playerLevels.Count; i < maxLevel; i++){
             playerLevels.Add(Mathf.CeilToInt(playerLevels[playerLevels.Count - 1] * 1.1f + 15));
         }
@@ -55,6 +57,7 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("moving", false);
         } else {
             animator.SetBool("moving", true);
+            lastMoveDirection = playerMoveDirection;
         }
 
         if (immunityTimer > 0){
