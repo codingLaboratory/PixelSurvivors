@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -17,14 +18,18 @@ public class PlayerController : MonoBehaviour
     public int experience;
     public int currentLevel;
     public int maxLevel;
-    public List<int> playerLevels;
 
-    public Weapon activeWeapon;
+    [SerializeField] private List<Weapon> inactiveWeapons;
+    public List<Weapon> activeWeapons;
+    [SerializeField] private List<Weapon> upgradeableWeapons;
+    public List<Weapon> maxLevelWeapons;
 
     private bool isImmune;
     [SerializeField] private float immunityDuration;
     [SerializeField] private float immunityTimer;
 
+    public List<int> playerLevels;
+    
     void Awake(){
         if (Instance != null && Instance != this){
             Destroy(this);
@@ -41,6 +46,7 @@ public class PlayerController : MonoBehaviour
         playerHealth = playerMaxHealth;
         UIController.Instance.UpdateHealthSlider();
         UIController.Instance.UpdateExperienceSlider();
+        AddWeapon(Random.Range(0, inactiveWeapons.Count));
     }
 
     // Update is called once per frame
@@ -50,13 +56,12 @@ public class PlayerController : MonoBehaviour
         float inputY = Input.GetAxisRaw("Vertical");
         playerMoveDirection = new Vector3(inputX, inputY).normalized;
 
-        animator.SetFloat("moveX", inputX);
-        animator.SetFloat("moveY", inputY);
-
         if (playerMoveDirection == Vector3.zero){
             animator.SetBool("moving", false);
-        } else {
+        } else if (Time.timeScale != 0) {
             animator.SetBool("moving", true);
+            animator.SetFloat("moveX", inputX);
+            animator.SetFloat("moveY", inputY);
             lastMoveDirection = playerMoveDirection;
         }
 
@@ -65,7 +70,6 @@ public class PlayerController : MonoBehaviour
         } else {
             isImmune = false;
         }
-
     }
 
     void FixedUpdate(){
@@ -97,7 +101,37 @@ public class PlayerController : MonoBehaviour
         experience -= playerLevels[currentLevel - 1];
         currentLevel++;
         UIController.Instance.UpdateExperienceSlider();
-        UIController.Instance.levelUpButtons[0].ActivateButton(activeWeapon);
+        //UIController.Instance.levelUpButtons[0].ActivateButton(activeWeapon);
+
+        upgradeableWeapons.Clear();
+
+        if (activeWeapons.Count > 0){
+            upgradeableWeapons.AddRange(activeWeapons);
+        }
+        if (inactiveWeapons.Count > 0){
+            upgradeableWeapons.AddRange(inactiveWeapons);
+        }
+        for (int i = 0; i < UIController.Instance.levelUpButtons.Length; i++){
+            if (upgradeableWeapons.ElementAtOrDefault(i) != null){
+                UIController.Instance.levelUpButtons[i].ActivateButton(upgradeableWeapons[i]);
+                UIController.Instance.levelUpButtons[i].gameObject.SetActive(true);
+            } else {
+                UIController.Instance.levelUpButtons[i].gameObject.SetActive(false);
+            }
+        }
+
         UIController.Instance.LevelUpPanelOpen();
+    }
+
+    private void AddWeapon(int index){
+        activeWeapons.Add(inactiveWeapons[index]);
+        inactiveWeapons[index].gameObject.SetActive(true);
+        inactiveWeapons.RemoveAt(index);
+    }
+
+    public void ActivateWeapon(Weapon weapon){
+        weapon.gameObject.SetActive(true);
+        activeWeapons.Add(weapon);
+        inactiveWeapons.Remove(weapon);
     }
 }

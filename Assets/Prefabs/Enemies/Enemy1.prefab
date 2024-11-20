@@ -196,7 +196,7 @@ MonoBehaviour:
   moveSpeed: 1.2
   damage: 1
   health: 5
-  experienceToGive: 1
+  experienceToGive: 10
   pushTime: 0.5
   destroyEffect: {fileID: 3655094787856938160, guid: 0ca0953cc88af3549bb5bc3445920d28, type: 3}
 --- !u!50 &1573330575133687114

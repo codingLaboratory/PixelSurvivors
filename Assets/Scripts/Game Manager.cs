@@ -47,14 +47,19 @@ public class GameManager : MonoBehaviour
     }
 
     public void Pause(){
-        if (UIController.Instance.pausePanel.activeSelf == false && UIController.Instance.gameOverPanel.activeSelf == false){
-            UIController.Instance.pausePanel.SetActive(true);
-            Time.timeScale = 0f;
-            AudioController.Instance.PlaySound(AudioController.Instance.pause);
-        } else {
-            UIController.Instance.pausePanel.SetActive(false);
-            Time.timeScale = 1f;
-            AudioController.Instance.PlaySound(AudioController.Instance.unpause);
+        if (UIController.Instance.levelUpPanel.activeSelf == false){
+            if (
+                UIController.Instance.pausePanel.activeSelf == false && 
+                UIController.Instance.gameOverPanel.activeSelf == false
+                ){
+                UIController.Instance.pausePanel.SetActive(true);
+                Time.timeScale = 0f;
+                AudioController.Instance.PlaySound(AudioController.Instance.pause);
+            } else {
+                UIController.Instance.pausePanel.SetActive(false);
+                Time.timeScale = 1f;
+                AudioController.Instance.PlaySound(AudioController.Instance.unpause);
+            }
         }
     }
 
