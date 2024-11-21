@@ -134,4 +134,20 @@ public class PlayerController : MonoBehaviour
         activeWeapons.Add(weapon);
         inactiveWeapons.Remove(weapon);
     }
+
+    public void IncreaseMaxHealth(int value){
+        playerMaxHealth += value;
+        playerHealth = playerMaxHealth;
+        UIController.Instance.UpdateHealthSlider();
+
+        UIController.Instance.LevelUpPanelClose();
+        AudioController.Instance.PlaySound(AudioController.Instance.selectUpgrade);
+    }
+
+    public void IncreaseMovementSpeed(float multiplier){
+        moveSpeed *= multiplier;
+
+        UIController.Instance.LevelUpPanelClose();
+        AudioController.Instance.PlaySound(AudioController.Instance.selectUpgrade);
+    }
 }
